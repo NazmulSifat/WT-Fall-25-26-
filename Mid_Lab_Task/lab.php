@@ -155,7 +155,7 @@
 
                 item.innerHTML = `
         ${activityName}
-        <button onclick="this.parentElement.remove()">Remove</button>
+        <button onclick="this.parentElement.remove()">Delete</button>
     `;
 
                 activityList.appendChild(item);
