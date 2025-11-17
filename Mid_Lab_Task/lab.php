@@ -57,7 +57,7 @@
         }
 
         .activity-item {
-            background: #e6e6e6;
+            background: #f8f8f8ff;
             padding: 8px;
             margin-top: 5px;
             border-radius: 5px;
