@@ -53,7 +53,7 @@
         }
 
         button:hover {
-            background: #060606ce;
+            background: #d10c0cce;
         }
 
         .activity-item {
@@ -81,7 +81,7 @@
     <body>
 
         <div class="container">
-            <h2>Participantion Registration</h2>
+            <h2>Participant Registration</h2>
 
             <input id="name" type="text" placeholder="Full Name">
             <input id="email" type="text" placeholder="Email">
