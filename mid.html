@@ -2,13 +2,46 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>regestration page</title>
+    <link rel="stylesheet" href="mid.css">
+
 </head>
 
 <body>
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+    <div>
+        <center>
+
+            <h2>Participant Registration </h2>
+
+
+
+            Name <br><input id="name" type="text" placeholder="enter your full name "> <br>
+
+            Email <br><input id="email" type="text" placeholder="enter your email "><br>
+            Phone Number<br><input id="phone" type="text" placeholder="enter your phone number "><br>
+            Password <br><input id="password" type="password" placeholder="enter your password "><br>
+            Confirm Password <br><input id="ConfirmPassword" type="password" placeholder="confirm your password"><br>
+
+            <br>
+
+
+            <button onclick="register()"> Register </button>
+
+            <div id="done"> </div>
+        </center>
+    </div>
+
+    <div class="container">
+        <h2> Activity Selection </h2>
+        <input id="input" type="text" placeholder="Activity Name">
+        <button onclick="addActivity()"> Add Activity </button>
+        <h3> Activity List : </h3>
+        <div id="activitylist"> </div>
+    </div>
+
+    <script src="mid.js"> </script>
+
 
 </body>
 
