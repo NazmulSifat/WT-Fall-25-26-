@@ -71,7 +71,7 @@
     <body>
 
         <div class="container">
-            <h2>Participant Registration</h2>
+            <h2>Participantion Registration</h2>
 
             <input id="name" type="text" placeholder="Full Name">
             <input id="email" type="text" placeholder="Email">
