@@ -40,6 +40,12 @@
             padding: 10px 20px;
             background: #080808ff;
             color: white;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            border: none;
+
 
 
 
@@ -54,6 +60,9 @@
             background: #e6e6e6;
             padding: 8px;
             margin-top: 5px;
+            border-radius: 5px;
+            display: flex;
+
 
         }
 
@@ -62,6 +71,7 @@
             padding: 10px;
             border-left: 4px solid green;
             margin-top: 15px;
+            display: none;
 
         }
     </style>
