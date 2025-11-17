@@ -24,8 +24,9 @@
             margin-bottom: 30px;
         }
 
-        container.h2 {
+        h2 {
             color: red;
+            font-size: 25px;
         }
 
         input {
